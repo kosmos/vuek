@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Bourgeon from 'bourgeon';
+import Bourgeon from './bourgeon';
 import App from './App';
 
 Vue.use(Bourgeon, {
