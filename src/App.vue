@@ -29,18 +29,19 @@ export default {
 };
 </script>
 
-<style lang="stylus">
-@import "../node_modules/typus" // base styles
-@import "styles/theme"
+<style lang="scss">
 
-html
-    +below(600px) // rupture
-        font-size 50%
 
-#app
-    align() // jeet
-    text-align center
+html{
+    font-size: 50%;
+}
 
-.icon-logo
-    margin-bottom 2.5rem
+#app {
+    text-align: center;
+}
+
+.icon-logo{
+    margin-bottom: 2.5rem;
+}
+
 </style>

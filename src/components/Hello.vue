@@ -22,7 +22,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="stylus" scoped>
-h1
-    color green
+<style lang="scss" scoped>
+h1 {
+    color: green;
+}
 </style>
