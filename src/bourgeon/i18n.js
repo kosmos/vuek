@@ -18,30 +18,30 @@ export default {
             Vue.locale(lang, require(`locales/${lang}.yml`));
         });
 
-    Vue.mixin({
-      computed: {
-        lang: {
-          get () {
-            return Vue.config.lang
-          },
-          set (lang) {
-            Vue.config.lang = lang
-          }
-        },
-        locales: {
-          get () {
-            return locales
-          }
-        }
-      },
-      methods: {
+        Vue.mixin({
+            computed: {
+                lang: {
+                    get () {
+                        return Vue.config.lang;
+                    },
+                    set (lang) {
+                        Vue.config.lang = lang;
+                    }
+                },
+                locales: {
+                    get () {
+                        return locales;
+                    }
+                }
+            },
+            methods: {
                 setLang (lang) {
-                    this.lang = lang
+                    this.lang = lang;
                 },
                 isLang (lang) {
-                    return this.lang === lang
+                    return this.lang === lang;
                 }
             }
-        })
+        });
     }
 };

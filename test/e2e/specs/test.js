@@ -2,18 +2,18 @@
 // http://nightwatchjs.org/guide#usage
 
 module.exports = {
-  'default e2e tests': function (browser) {
-    // automatically uses dev Server port from /config.index.js
-    // default: http://localhost:8080
-    // see nightwatch.conf.js
-    const devServer = browser.globals.devServerURL
+    'default e2e tests': function (browser) {
+        // automatically uses dev Server port from /config.index.js
+        // default: http://localhost:8080
+        // see nightwatch.conf.js
+        const devServer = browser.globals.devServerURL;
 
-    browser
-      .url(devServer)
-      .waitForElementVisible('#app', 5000)
-      .assert.elementPresent('.logo')
-      .assert.containsText('h1', 'Bienvenue sur votre application Bourgeon !')
-      .assert.elementCount('p', 3)
-      .end()
-  }
-}
+        browser
+            .url(devServer)
+            .waitForElementVisible('#app', 5000)
+            .assert.elementPresent('.logo')
+            .assert.containsText('h1', 'Bienvenue sur votre application Bourgeon !')
+            .assert.elementCount('p', 3)
+            .end();
+    }
+};

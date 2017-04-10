@@ -34,13 +34,13 @@ export default {
 @import "styles/theme"
 
 html
-  +below(600px) // rupture
-    font-size 50%
+    +below(600px) // rupture
+        font-size 50%
 
 #app
-  align() // jeet
-  text-align center
+    align() // jeet
+    text-align center
 
 .icon-logo
-  margin-bottom 2.5rem
+    margin-bottom 2.5rem
 </style>
