@@ -3,7 +3,7 @@ import Bourgeon from 'bourgeon';
 import App from './App';
 
 Vue.use(Bourgeon, {
-    locales: ['fr', 'en']
+    locales: ['en', 'fr']
 });
 
 /* eslint-disable no-new */
