@@ -1,6 +1,6 @@
 # Vuek - minimal vue boilerplate
 
-> A Vue.js project
+> Vue+Vuex+Scss
 
 ## Build Setup
 
