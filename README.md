@@ -2,7 +2,7 @@
 
 > Vuek is an opinionated-featured VueJS 2.0 setup for Webpack
 
-> The setup includes hot-reload, lint-on-save, unit testing, css extraction, vuex, advanced routing, i18n, SVG sprite sheets and stylus with some helpers. Almost everything is optional and you can select which sugars you want on init
+> The setup includes hot-reload, lint-on-save, unit testing, css extraction, vuex, advanced routing, i18n, SVG sprite sheets and scss with some helpers, pug(jade) for templates.
 
 ## What's different
 

@@ -15,7 +15,7 @@ This template is a fork of the official [webpack](https://github.com/vuejs-templ
 - **[i18n](i18n.md)** using [vue-i18n](https://github.com/kazupon/vue-i18n), [yaml-loader](https://github.com/okonet/yaml-loader) and conventions
 - **[Store](store.md)** using **[vuex](https://github.com/vuejs/vuex)** or a simple convention for sharing data between components
 - **[SVG Sprites](svg.md)** using [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader) and conventions
-- **[Stylus](stylus.md)** using [stylus-loader](https://github.com/shama/stylus-loader) and some custom mixins
+
 
 ### Soon
 

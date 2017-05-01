@@ -2,7 +2,7 @@
 
 All build commands are executed via [NPM Scripts](https://docs.npmjs.com/misc/scripts).
 
-### `npm run dev`
+### `npm start`
 
 > Starts a Node.js local development server. See [API Proxying During Development](proxy.md) for more details.
 
