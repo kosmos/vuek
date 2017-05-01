@@ -1,10 +1,10 @@
-<template>
-    <div class="hello">
-        <h1>{{ msg }}</h1>
-        <p>
-            <router-link to="/">{{ $t('buttons.home') }}</router-link>
-        </p>
-    </div>
+<template lang="pug">
+include ../bourgeon/bemto.pug
+
+.hello
+    h1 {{ msg }}
+    p
+        router-link(to="/") {{ $t('buttons.home') }}
 </template>
 
 <script>

@@ -1,13 +1,15 @@
 <template lang="pug">
-    div
-        h1 {{ $t('messages.welcome') }}
-        p
-            router-link(to="/hello/bourgeon") {{ $t('buttons.hello') }}
+include ../bourgeon/bemto.pug
+
++b.test
+    h1 {{ $t('messages.welcome') }}
+    +e("p").parag
+        router-link(to="/hello/bourgeon") {{ $t('buttons.hello') }}
 </template>
 
 <script>
 export default {};
 </script>
 
-<style>
+<style lang="scss">
 </style>

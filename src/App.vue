@@ -1,11 +1,13 @@
 <template lang="pug">
-    #app
+    include ../node_modules/bemto.pug/bemto.pug
+
+    +b.app#app
         icon.logo(name="logo")
         router-view
-        div
+
             button(@click="setLang(lang)", v-for="lang in locales", :disabled="isLang(lang)") {{ $t('locales.'+ lang) }}
         hr
-        div
+        +b.button
             button(@click="increment") {{ $tc('messages.counter', countPlural, { n: $store.state.count }) }}
 </template>
 
