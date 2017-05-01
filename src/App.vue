@@ -4,7 +4,6 @@
     +b.app#app
         icon.logo(name="logo")
         router-view
-
             button(@click="setLang(lang)", v-for="lang in locales", :disabled="isLang(lang)") {{ $t('locales.'+ lang) }}
         hr
         +b.button
@@ -32,8 +31,6 @@ export default {
 </script>
 
 <style lang="scss">
-
-
 html{
     font-size: 50%;
 }

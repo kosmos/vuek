@@ -1,5 +1,5 @@
 <template lang="pug">
-include ../vuek/bemto.pug
+include ../../vuek/bemto.pug
 
 .hello
     h1 {{ msg }}
