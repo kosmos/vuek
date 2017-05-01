@@ -1,5 +1,5 @@
 <template lang="pug">
-    include ../node_modules/bemto.pug/bemto.pug
+    include ./vuek/bemto.pug
 
     +b.app#app
         icon.logo(name="logo")

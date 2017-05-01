@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
-import Icon from 'bourgeon/Icon.vue';
-import Router from 'bourgeon/router';
-import I18n from 'bourgeon/i18n';
+import Icon from 'vuek/Icon.vue';
+import Router from 'vuek/router';
+import I18n from 'vuek/i18n';
 
 export default {
     install (Vue, options) {

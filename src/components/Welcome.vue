@@ -1,5 +1,5 @@
 <template lang="pug">
-include ../bourgeon/bemto.pug
+include ../vuek/bemto.pug
 
 +b.test
     h1 {{ $t('messages.welcome') }}

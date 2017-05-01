@@ -1,8 +1,8 @@
 import Vue from 'vue';
-import Bourgeon from './bourgeon';
+import Vuek from './vuek';
 import App from './App';
 
-Vue.use(Bourgeon, {
+Vue.use(Vuek, {
     locales: ['en', 'fr']
 });
 
